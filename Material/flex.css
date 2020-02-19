@@ -1,0 +1,46 @@
+section{
+	width: 1000px;
+	height: 500px;
+	border: solid 1px ;
+	display: flex; 
+	
+	flex-direction: column-reverse;
+	flex-wrap: wrap-reverse;
+
+}
+
+
+div{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin: 20px;
+	font-size: 50px;
+	color: white;
+	font-family: arial;
+}
+
+
+.caja1{
+	
+	background: blue;
+
+}
+.caja2{
+	background: green;
+	
+
+}
+.caja3{
+	background: red;
+}
+.caja4{
+	background: orange;
+}
+.caja5{
+	background: black;
+}
+.caja6{
+	background: purple;
+}
+

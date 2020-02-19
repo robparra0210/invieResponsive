@@ -1,0 +1,46 @@
+.ggg{
+	height: 50px;
+	width: 100%;
+	background: #4a88f4;
+	color: #fff;
+	font-size:30px;
+	font-family: Arial;
+	position: fixed;
+	top: 0px;
+}
+
+.ggg h2{
+	width:max-content;
+	margin:0px auto;
+}
+
+.texto{
+	margin-top: 60px;
+}
+
+
+.izq{
+
+	text-align: justify;
+}
+
+ .der{
+ 	border-top: solid 2px #665544;
+ 	border-bottom:  solid 2px #665544;
+ 	font-size: 70%;
+ 	margin: 0px 0px 10px 10px;
+ 	width: 200px;
+ 	float: right;
+ 	text-align: right;
+ 	
+ }
+ .der2{
+ 	border-top: solid 2px #665544;
+ 	border-bottom:  solid 2px #665544;
+ 	font-size: 70%;
+ 	margin: 0px 10px 10px 0px;
+ 	width: 200px;
+ 	float: left;
+ 	text-align: left;
+ 	
+ }
