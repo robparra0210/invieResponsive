@@ -10,7 +10,7 @@ body{
 
 
 .titulo{
-	font-size: 75px;
+	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 10px;
 	margin-top: 70px;
@@ -208,7 +208,7 @@ margin-bottom: 20px
 }
 
 
-.formulario label ,.sexo , .interedes {
+.formulario label ,.sexo , .intereses label {
 	margin-bottom: 10px;
 }
 
@@ -263,7 +263,7 @@ td{
 
 
 
- @media screen and (max-width: 800px){
+ @media screen and (max-width: 800px){  /*Tableta*/
  		
  		/*Portada*/
  		.titulo { 
@@ -319,6 +319,11 @@ td{
  		.contenedor-guitarra-b{
  			position: static;
  			margin:0;
+ 			padding: 0;
+ 		}
+
+ 		.contenedor-guitarra-a{
+ 			padding: 0;
  		}
 
  		/*guitarras*/
@@ -330,3 +335,120 @@ td{
  }
 
 
+@media screen and (max-width: 767px){
+
+	.footer .contenedor{
+		display: block;
+	}
+
+	.contacto{
+		margin: 0 auto;
+	}
+
+	.formulario{
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+		padding:0 0  50px 0;
+	}
+
+	.intereses	label{
+		display: inline-flex;
+		font-size: 16px;
+	}
+
+	input[type="text"],[type="email"]{
+	font-size: 16px;
+	padding: 5px;
+	 }
+
+	 textarea{
+	 	width: 100%;
+	 }
+
+	 .col1{
+	 	margin: 0;
+	 }
+
+	 input[type="radio"],[type="checkbox"]{
+	 	zoom:1.5;
+	 }
+
+
+
+}
+
+
+
+@media screen and (max-width: 650px){
+	
+	.header{
+		text-align: center;
+
+	}
+	.logotipo{
+		margin: 0;
+	}
+
+	.menu{ 
+		position: static;
+		display: block;
+	 }
+
+	 .menu li{
+	 	margin: none;
+	 }
+
+	 .menu ul{
+	 	padding: 0;
+	 }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 530px){
+	.menu li{
+		display: block;
+		margin: 0;
+		padding: 8px 0;
+		border-bottom: 1px white solid;
+	}
+
+	.menu li:first-child{
+		border-top: 1px white solid;
+	}
+	.menu li:before{
+		display: none;
+	}
+
+	.portada{ 
+		text-align: center;
+	 }
+
+	 .titulo{
+	 	font-size: 38px;
+	 }
+
+	 .title-a{
+	 	font-size: 14px;
+	 }
+
+
+/*Guitarra*/
+
+	 .guitarra img{
+	 	width: 250px;
+	 	height: auto;
+	 }
+
+	 .title-b{
+	 	font-size: 30px;
+
+	 }
+
+
+}
