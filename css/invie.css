@@ -317,6 +317,7 @@ td{
  	top: 20px;
  	cursor: pointer;
  	z-index: 3;
+ 	color:white;
  }
 
 
@@ -390,6 +391,17 @@ td{
  		.footer{
  			padding: 10px;
  		}
+
+ 	/*precios*/
+ 	.tabla{
+ 		margin: 50px 20px;
+ 		padding: 0;
+ 		}	
+
+ 		.tabla .contenedor{
+ 		overflow: auto;
+ 		border: 1px #273b47;
+ 	}
  }
 
 
@@ -471,6 +483,14 @@ td{
 @media screen and (max-width: 530px){
 
 	.portada .contenedor{
+		position: static;
+	}
+	.header{
+		position: static;
+	}
+
+
+	.header .contenedor{
 		position: static;
 	}
 
